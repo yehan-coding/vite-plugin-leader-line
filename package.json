@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A Vite plugin for LeaderLine",
   "author": "yehan",
-  "license": "ISC",
+  "license": "MIT",
   "homepage": "https://github.com/yehan68/vite-plugin-leader-line",
   "repository": {
     "type": "git",
