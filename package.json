@@ -1,0 +1,43 @@
+{
+  "name": "vite-plugin-leader-line",
+  "version": "1.0.0",
+  "description": "A Vite plugin for LeaderLine",
+  "author": "yehan",
+  "license": "ISC",
+  "homepage": "https://github.com/yehan68/vite-plugin-leader-line",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yehan68/vite-plugin-leader-line"
+  },
+  "bugs": "https://github.com/yehan68/vite-plugin-leader-line/issues",
+  "keywords": [
+    "vite",
+    "vite-plugin",
+    "leader-line"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "main": "dist/index.js",
+  "module": "./dist/index.mjs",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "demo": "vite",
+    "build": "tsup src/index.ts --dts --format cjs,esm"
+  },
+  "peerDependencies": {
+    "vite": "^3.0.0 || ^4.0.0"
+  },
+  
+  "devDependencies": {
+    "leader-line": "^1.0.7",
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.4",
+    "vite": "^4.2.1"
+  }
+}
